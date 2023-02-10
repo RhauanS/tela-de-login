@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     letter-spacing: 1px;
-    margin-top: 20px;
+    margin-top: 15%;
     font-weight: 400;
     
 }
@@ -36,7 +36,7 @@ h1 {
 .hello {
     align-items: center;
     justify-content: center;
-    height: 604px; /* altura do container */
+    height: 100vh; /* altura do container */
     width: 100%; /* largura do container */
     background-color: transparent;
 }
@@ -47,13 +47,13 @@ h1 {
     height: 50vh;
     display: flex;
     margin: 0 auto;
-    min-height: 500px;
+    min-height: 569px;
 }
 
 /* config signin signup */
 #container {
     width: 100%;
-    height: 500px;
+    height: 100vh;
     background-color: transparent;
     text-align: center;
 }
@@ -62,17 +62,26 @@ h1 {
 #login-form {
     font-size: 20px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin-top: 68px;
-    background-color: transparent;
+    margin-top: 30%;
+    background-color: #0b3c52;
+    margin: 30% 23% 0% 12%;
+    padding: 15px 0px 33px 0px;
+    border-radius: 30px;
 }
 input {
-    width: 350px;
-    border-radius: 5px;
+    /* width: 350px; */
+    border-radius: 19px;
     padding: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 1.3rem;
+    box-sizing: border-box;
+    width: 25vw;
+    border: none;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 23%);
 }
+
+
 
 
 .box {
@@ -84,19 +93,29 @@ input {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100vh;
     
 }
 
 .log-clear {
     width: 382px;
-    background-color: #58fae2;
+    background-color: #00ffc8;
     color: black;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     transition: transform .01s;
+    /* width: 350px; */
+    width: 25vw;
+    
 
 }
+
+#teste {
+    /* Pra deixar o login e o limpar embaixo do outro */
+    display: inline-grid;
+}
+
 p {
     font-size: 1.3rem;
     color: white;
@@ -107,4 +126,72 @@ p {
     cursor: pointer;
     
 
+}
+
+
+/* Media queries */
+@media (max-width: 1204px) {
+    #login-form {
+        font-size: 20px;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        margin-top: 30%;
+        margin: 23vh 24% 0% 12%;
+    }
+}
+
+
+
+@media (max-width: 1072px) {
+    .grid {
+        display: block;
+    }
+    input , .log-clear{
+        width: 50vw;
+        
+    }
+    #login-form {
+        margin: 23vh 20% 0% 20%;
+    }
+    .hello {
+        height: 500px;
+    }
+    h1 {
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.9rem;
+        letter-spacing: 2.4px;
+        margin-top: 21%;
+        font-weight: 300;
+    }
+    .hello > img{
+        min-height: 382px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .grid {
+        display: block;
+    }
+    input , .log-clear{
+        width: 75vw;
+        
+    }
+    #login-form {
+        margin: 23vh 5% 0% 5%;
+    }
+    .hello {
+        height: 500px;
+    }
+    h1 {
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.9rem;
+        letter-spacing: 2.4px;
+        margin-top: 21%;
+        font-weight: 300;
+    }
+    .hello > img{
+        min-height: 382px;
+    }
 }
