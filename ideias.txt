@@ -1,0 +1,11 @@
+texto do login: Registre-se agora e experimente novas possibilidades. Junte-se a nossa comunidade!
+
+fonte: -apple-system
+
+cores: azul-1 = #012030
+	azul-2 = #13678A
+	azul-3 = #45C4B0
+	azul-4 = #9AEBA3
+	azul-5 = #DAFDBA
+
+

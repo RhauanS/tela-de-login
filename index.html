@@ -11,10 +11,28 @@
 </head>
 <body>
     <div class="grid">
-        <nav class="hello">
+        <section class="hello">
             <h1>Registre-se agora e experimente novas possibilidades. <br> Junte-se a nossa comunidade!</h1>
             <img src="imagens/mobile-login-animate (1).svg" alt="Celular flutuando">
-        </nav>
+        </section>
+        <section id="container">
+            <form id="login-form" method="post" >
+                <h2 style="padding-bottom: 20px; color: #58fae2;">LOGIN</h2>
+                <p class="box">
+                    <p><label for="i-user">Usuário</label></p>
+                    <input type="text" required placeholder="Usuário" name="user" id="i-user" maxlength="10">
+                </p>
+                <p class="box">
+                    <p style="justify-content: left;"><label for="ikey">Senha</label></p>
+                    <input type="password" required placeholder="Senha" name="password" id="ipassword" maxlength="20">
+                </p>
+                <p style="margin-top: 20px; "><input class="log-clear" type="submit" value="Login" >
+                </p>
+                <input class="log-clear" type="reset" value="Limpar" >
+                
+            </form>
+
+        </section>
     </div>
 </body>
 </html>
