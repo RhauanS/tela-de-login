@@ -291,7 +291,7 @@ p {
 
 
 
-
+/* Adcionando efeitos ao recarregar a página */
 h1, img, #login-form{
 	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -346,3 +346,23 @@ h1, img, #login-form{
     }
   }
   
+
+
+/* Configurando o esqueci minha senha */
+
+#forget-password {
+    text-align: right;
+    margin: 20px 20px 0px 0px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#forget-password > a {
+    text-decoration: underline;
+    color: white;
+}
+
+#forget-password > a:hover {
+    color: #00FEC7;
+}
