@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-modal-2.css">
 
     
 </head>
@@ -35,13 +36,23 @@
                     <input style="margin-top: 30px;" class="log-clear" type="submit" value="Login" >
                     <input class="log-clear" type="reset" value="Limpar" >
                 </p>
+
+                <!-- Configurando modal -->
                 <p id="forget-password">
-                    <a href="#">Esqueci minha senha</a>
+                    <a href="#modal" class="btn">Esqueci minha senha</a>
                 </p>
-                
             </form>
 
         </section>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2 class="modal-title" style="color: white; margin-bottom: 20px;">Email de verificação enviado!</h2>
+            <p class="modal-discription" style="margin-bottom: 20px;">
+                Esta ação requere um email de verificação. Por favor, verifique sua caixa de entrada e siga as instruções.
+            </p>
+            <a href="#" class="modal-link">OK</a>
+        </div>
     </div>
 </body>
 </html>
