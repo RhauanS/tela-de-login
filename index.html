@@ -12,12 +12,13 @@
 </head>
 <body>
     <div class="grid">
+        
         <section class="hello">
             <h1>Registre-se agora e experimente novas possibilidades. <br> Junte-se a nossa comunidade!</h1>
             <img src="imagens/mobile-login-animate (1).svg" alt="Celular flutuando">
         </section>
         <section id="container">
-            <form id="login-form" method="post" action="./sites-extras/login.html" target="_blank">
+            <form id="login-form" method="get" action="https://joao121gf.github.io/tela-de-login/sites-extras/login.html" target="_blank">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -33,7 +34,9 @@
                     <input type="password" required placeholder="Senha" name="password" id="ipassword" maxlength="20">
                 </p>
                 <p class="box" id="teste">
-                    <input style="margin-top: 30px;" class="log-clear" type="submit" value="Login">
+                    <input type="submit" value="enviar">
+
+                    <a href="./sites-extras/login.html" class="log-clear" id="link-login">Login</a>
                     <input class="log-clear" type="reset" value="Limpar" >
                 </p>
 
@@ -54,5 +57,9 @@
             <a href="#" class="modal-link">OK</a>
         </div>
     </div>
+    <footer class="footer">
+        <p>Site criado por <a href="https://github.com/joao121gf" target="_blank">João Giovani</a></p>
+    </footer>
+    
 </body>
 </html>

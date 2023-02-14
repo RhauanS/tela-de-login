@@ -94,7 +94,7 @@ input {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    height: 96.3vh;
     
 }
 
@@ -222,6 +222,23 @@ p {
     }
 }
 
+
+/* Configurando o botao de login */
+
+#link-login {
+    border-radius: 19px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    width: 25vw;
+    border: none;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 23%);
+}
+
+
+
 /* Media queries */
 @media (max-width: 1204px) {
     #login-form {
@@ -238,7 +255,7 @@ p {
     .grid {
         display: block;
     }
-    input , .log-clear{
+    input , .log-clear, #link-login{
         width: 50vw;
         
     }
@@ -266,7 +283,7 @@ p {
     .grid {
         display: block;
     }
-    input , .log-clear{
+    input , .log-clear, #link-login{
         width: 75vw;
         
     }
@@ -366,3 +383,23 @@ h1, img, #login-form{
 #forget-password > a:hover {
     color: #00FEC7;
 }
+
+/* Configurando o rodapé */
+footer{
+    text-align: center;
+    background-color: #07354A;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    color: white;
+}
+footer > p > a:hover{
+    color: #00ffc8;
+}
+
