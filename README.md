@@ -9,7 +9,7 @@ Uma tela de login responsiva desenvolvida utilizando apenas HTML5 e CSS3.
 
 ## 🛠 Tecnologias
 * HTML5
-*CSS3
+* CSS3
 
 
 
@@ -34,7 +34,8 @@ Você pode personalizar a tela de login de acordo com suas necessidades, editand
 João Giovani - https://github.com/joao121gf
 
 ## 💬Contato
-
+* https://github.com/joao121gf
+* https://www.linkedin.com/in/jo%C3%A3o-giovani-657192204/
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE.md para obter detalhes.
