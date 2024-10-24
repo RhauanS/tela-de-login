@@ -18,7 +18,7 @@
             <img src="imagens/mobile-login-animate (1).svg" alt="Celular flutuando">
         </section>
         <section id="container">
-            <form id="login-form" method="post" action="php/login.php">
+            <form id="login-form" method="post" action="php/register.php">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -26,8 +26,18 @@
 
                 <h2 style="padding-bottom: 20px; color: #00ffc8; margin-top: 25px; padding-bottom: 35px;">LOGIN</h2>
                 <p class="box">
+                    <p><label for="i-user">Nome</label></p>
+                    <input type="text" required placeholder="Usuário" name="nome" id="i-user" maxlength="10">
+                </p>
+
+                <p class="box">
+                    <p><label for="i-user">Email</label></p>
+                    <input type="text" required placeholder="Usuário" name="email" id="i-user" >
+                </p>
+                
+                <p class="box">
                     <p><label for="i-user">Usuário</label></p>
-                    <input type="text" required placeholder="Usuário" name="user" id="i-user" maxlength="10">
+                    <input type="text" required placeholder="Usuário" name="userId" id="i-user" maxlength="10">
                 </p>
                 <p class="box">
                     <p style="justify-content: left;"><label for="ikey">Senha</label></p>
